@@ -16,6 +16,7 @@ const getBeOpxEarnApy = require('./getBeOpxEarnApy');
 const getKyberOptimismApys = require('./getKyberOptimismApys');
 const getMmyApys = require('./getMmyApys');
 const getExactlyApys = require('./getExactlyApys');
+const { getReaperApy } = require('./getReaperApy');
 
 const getApys = [
   getExactlyApys,
@@ -36,6 +37,7 @@ const getApys = [
   getOlpApys,
   getBeOpxApy,
   getBeOpxEarnApy,
+  getReaperApy,
 ];
 
 const getOptimismApys = async () => {
